@@ -183,7 +183,11 @@ logic [4:0]                    irq_core_resp_id_int;
    //-------------------------------------------------------------------------------------------------------------------------------
    // instance random_interrupt
   
+ 
+  riscv_random_interrupt_generator_i
+  (
   
+  );
   
   
   // ne pas oublier d'instancier l'ip ici//
