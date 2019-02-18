@@ -1,6 +1,0 @@
-import riscv_defines::*;
-`include "riscv_config.sv"
-
-module random_interrupt
-(
-);
